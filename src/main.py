@@ -43,6 +43,14 @@ def get_topic_for_day(curriculum: dict, day: int) -> dict:
     return None
 
 
+def generate_terms_section(terms: dict) -> str:
+    """전문 용어 섹션 생성"""
+    if not terms:
+        return ""
+    items = "".join(f'<div class="term"><strong>{term}:</strong> {desc}</div>' for term, desc in terms.items())
+    return f"<div class='section'><h2>📚 전문 용어</h2><div class='terms'>{items}</div></div>"
+
+
 def markdown_to_html(text: str) -> str:
     """간단한 마크다운을 HTML로 변환"""
     if not text:
@@ -188,7 +196,7 @@ def create_email_content(curriculum: dict, day: int, topic_data: dict) -> str:
             </div>
         </div>
 
-        {"<div class='section'><h2>📚 전문 용어</h2><div class='terms'>" + "".join(f'<div class=\"term\"><strong>{term}:</strong> {desc}</div>' for term, desc in topic.get('technical_terms', {}).items()) + "</div></div>" if topic.get('technical_terms') else ""}
+        {generate_terms_section(topic.get('technical_terms', {}))}
 
         {"<div class='section'><h2>📐 공식 및 계산</h2><div class='formula'>" + topic['formula'] + "</div></div>" if topic.get('formula') else ""}
 
