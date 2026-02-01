@@ -1,70 +1,215 @@
 {
   "program_info": {
-    "title": "SWRO 해수담수화 플랜트 Process & Mechanical Engineer 전문가 속성 과정",
+    "title": "SWRO 해수담수화 전문가 90일 속성과정",
     "duration_days": 90,
-    "levels": ["기초", "중급", "고급", "전문가"],
-    "description": "3개월 만에 SWRO 해수담수화 플랜트 전문가로 성장하는 집중 학습 프로그램"
+    "levels": ["기초", "중급", "고급", "전문가"]
   },
   "modules": [
     {
-      "module_id": 1,
-      "title": "SWRO 기초 이론",
-      "level": "기초",
-      "duration_days": 15,
-      "start_day": 1,
+      "module_id": 1, "title": "SWRO 기초이론", "level": "기초",
+      "duration_days": 15, "start_day": 1,
       "topics": [
-        {
-          "day": 1,
-          "title": "담수화 기술 개요와 SWRO의 위상",
-          "content": "담수화 기술의 전체 그림과 SWRO가 주류가 된 이유를 이해합니다.",
-          "key_points": [
-            "전 세계 물 부족 현황: 20억 명이 안전한 식수 부족",
-            "담수화 기술 분류: 열적 방식(MSF, MED) vs 막 방식(RO, ED)",
-            "SWRO가 신규 설비의 70% 이상 차지하는 이유",
-            "글로벌 담수화 시장: 1억 m³/d 이상, 연 8-10% 성장"
-          ],
-          "technical_terms": {
-            "TDS": "Total Dissolved Solids - 총 용존고형물. 해수는 약 35,000 mg/L",
-            "SWRO": "Seawater Reverse Osmosis - 해수역삼투. 현재 가장 경제적인 담수화 기술",
-            "SEC": "Specific Energy Consumption - 물 1m³ 생산에 필요한 에너지(kWh/m³)",
-            "LCOW": "Levelized Cost of Water - 균등화 물 생산 비용($/m³)"
-          },
-          "formula": "담수화 기술별 에너지 소비 비교:\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n기술        SEC (kWh/m³)   물 비용 ($/m³)\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━\nSWRO        2.5 ~ 4.0      0.5 ~ 1.0\nMSF         10 ~ 15        1.0 ~ 1.5\nMED         8 ~ 12         0.8 ~ 1.2\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━",
-          "practical_tip": "SWRO가 열적 방식을 압도하게 된 결정적 요인은 ERD(에너지 회수장치) 기술입니다. 1980년대 8-10 kWh/m³이던 SEC가 현재 2.5-3.5 kWh/m³까지 낮아졌습니다.",
-          "detailed_explanation": "## 1. 왜 담수화인가?\n\n지구의 물 중 담수는 2.5%에 불과하고, 이마저도 빙하(69%)와 지하수(30%)가 대부분입니다. 실제 사용 가능한 지표수는 전체의 0.007%뿐입니다.\n\n**물 부족 지역**\n- 중동/북아프리카: 강수량 부족\n- 호주, 미국 남서부: 주기적 가뭄\n- 싱가포르, 홍콩: 면적 대비 인구 과밀\n- 도서 지역: 담수 수원 부재\n\n## 2. 담수화 기술의 발전\n\n**1세대: 증류법 (1950-1980년대)**\n- MSF(Multi-Stage Flash): 중동 대형 플랜트\n- 발전소 폐열 활용, 에너지 다소비\n\n**2세대: 막분리법 (1980년대-현재)**\n- RO막 기술 상용화\n- ERD 기술로 에너지 혁신\n- 현재 주류 기술로 정착\n\n## 3. SWRO의 경쟁력\n\n| 항목 | SWRO | MSF/MED |\n|------|------|--------|\n| SEC | 2.5-4 kWh/m³ | 10-15 kWh/m³ |\n| 열원 필요 | 불필요 | 필수 |\n| 설치 면적 | 작음 | 큼 |\n| 운전 유연성 | 높음 | 낮음 |\n| 초기 투자비 | 낮음 | 높음 |\n\n## 4. 세계 담수화 현황\n\n**Top 5 국가 (설비 용량 기준)**\n1. 사우디아라비아: 세계 최대\n2. UAE: 두바이, 아부다비\n3. 쿠웨이트: 100% 담수화 의존\n4. 이스라엘: 음용수 70% 담수화\n5. 스페인: 유럽 최대\n\n**메가 프로젝트 사례**\n- Ras Al Khair (사우디): 1,036,000 m³/d\n- Sorek (이스라엘): 624,000 m³/d\n- Carlsbad (미국): 190,000 m³/d",
-          "exercises": "**[연습문제 1]**\n100,000 m³/d SWRO 플랜트(SEC 3.5 kWh/m³)와 MSF 플랜트(SEC 12 kWh/m³)의 일일 전력비용 차이를 계산하시오. (전기요금 $0.1/kWh)\n\n<풀이>\nSWRO: 100,000 × 3.5 × 0.1 = $35,000/일\nMSF: 100,000 × 12 × 0.1 = $120,000/일\n차이: $85,000/일 → 연간 약 $31백만 절감\n\n**[연습문제 2]**\n해수 TDS가 42,000 mg/L인 지역은 어디일 가능성이 높은가?\n\n<정답>\n아라비아만(페르시아만) 지역. 폐쇄적 해역으로 증발이 많아 염분 농도가 높습니다.",
-          "quiz": [
-            {"q": "SWRO의 현재 SEC 범위는?", "a": "2.5-4.0 kWh/m³"},
-            {"q": "세계 담수화 시장 연간 성장률은?", "a": "8-10%"},
-            {"q": "일반 해수의 TDS는?", "a": "약 35,000 mg/L"}
-          ]
-        },
-        {
-          "day": 2,
-          "title": "역삼투(RO) 원리 완전 정복",
-          "content": "삼투 현상부터 역삼투까지, RO의 핵심 원리를 완벽히 이해합니다.",
-          "key_points": [
-            "삼투(Osmosis): 저농도→고농도로 용매 이동",
-            "삼투압(π): Van't Hoff 방정식으로 계산",
-            "역삼투: 삼투압 이상의 압력을 가해 물만 분리",
-            "NDP(Net Driving Pressure): 실제 막 투과 구동력"
-          ],
-          "technical_terms": {
-            "Osmotic Pressure (π)": "삼투압. 반투막을 통해 용매가 이동하려는 압력. 해수는 약 25-28 bar",
-            "NDP": "Net Driving Pressure. 운전압력에서 삼투압과 저항을 뺀 실제 구동력",
-            "Semi-permeable Membrane": "반투막. 물은 통과시키고 염분은 차단하는 막",
-            "Rejection": "제거율. 막이 용질을 차단하는 비율 (%)"
-          },
-          "formula": "삼투압 계산 (Van't Hoff 방정식):\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━\nπ = i × M × R × T\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━\nπ: 삼투압 (bar)\ni: Van't Hoff 계수 (NaCl=2, MgCl₂=3)\nM: 몰농도 (mol/L)\nR: 기체상수 (0.0831 L·bar/mol·K)\nT: 절대온도 (K = ℃ + 273)\n\n실용 계산식:\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━\nπ ≈ 0.7 × TDS(g/L) [bar]\n예: 35g/L 해수 → π ≈ 24.5 bar\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\nNDP 계산:\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━\nNDP = (Pf - Pp) - (πf - πp)\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━\nPf: 공급수 압력 (bar)\nPp: 투과수 압력 (bar)\nπf: 공급수 삼투압 (bar)\nπp: 투과수 삼투압 (bar)",
-          "practical_tip": "SWRO 운전압력 55-70 bar 중 약 25-28 bar는 삼투압을 극복하는 데 사용되고, 나머지가 실제 NDP가 됩니다. NDP가 높을수록 플럭스가 증가하지만, 막 손상 위험도 증가합니다.",
-          "detailed_explanation": "## 1. 삼투 현상의 이해\n\n**일상의 삼투 현상**\n- 배추에 소금을 뿌리면 수분이 빠져나옴\n- 손가락이 물에 오래 담그면 쭈글쭈글해짐\n- 식물 뿌리가 토양에서 수분을 흡수\n\n**삼투의 원리**\n반투막을 사이에 두고 농도가 다른 두 용액이 있을 때, 용매(물)가 저농도→고농도로 이동하여 농도를 평형시키려는 현상입니다.\n\n## 2. 삼투압의 정량적 이해\n\n**Van't Hoff 방정식 유도**\n이상기체 법칙(PV=nRT)과 유사한 형태로 삼투압을 계산합니다.\n\n**해수 삼투압 계산 예시**\n```\n해수 TDS: 35,000 mg/L = 35 g/L\nNaCl 기준 분자량: 58.5 g/mol\n몰농도: 35/58.5 ≈ 0.6 mol/L\ni (NaCl): 2\nR: 0.0831 L·bar/mol·K\nT: 25℃ = 298K\n\nπ = 2 × 0.6 × 0.0831 × 298 ≈ 29.7 bar\n```\n\n실제 해수는 다양한 이온을 포함하므로 약 25-28 bar입니다.\n\n## 3. 역삼투의 원리\n\n**정상 삼투**: 담수 → 해수 (자연 방향)\n**역삼투**: 해수 → 담수 (압력으로 역전)\n\n삼투압(~27 bar)보다 높은 압력(55-70 bar)을 가하면 물 분자만 막을 통과하여 담수가 됩니다.\n\n## 4. NDP와 플럭스의 관계\n\n**플럭스 방정식**\n```\nJw = A × NDP\n\nJw: 물 플럭스 (L/m²/h, LMH)\nA: 막의 투수계수 (L/m²/h/bar)\nNDP: 순 구동압력 (bar)\n```\n\n**실제 운전 예시**\n```\n운전압력: 60 bar\n투과수 압력: 1 bar\n공급수 삼투압: 27 bar (평균)\n투과수 삼투압: 0.5 bar\n\nNDP = (60-1) - (27-0.5) = 32.5 bar\n```",
-          "exercises": "**[연습문제 1]**\nTDS 40,000 mg/L 해수의 삼투압을 실용 계산식으로 구하시오.\n\n<풀이>\nπ ≈ 0.7 × 40 = 28 bar\n\n**[연습문제 2]**\n운전압력 65 bar, 투과수압력 1 bar, 공급수 삼투압 28 bar, 투과수 삼투압 0.4 bar일 때 NDP를 계산하시오.\n\n<풀이>\nNDP = (65-1) - (28-0.4) = 64 - 27.6 = 36.4 bar\n\n**[연습문제 3]**\n막의 투수계수가 3.5 L/m²/h/bar이고 NDP가 30 bar일 때, 예상 플럭스는?\n\n<풀이>\nJw = 3.5 × 30 = 105 LMH\n(실제로는 이렇게 높지 않으며, 농도분극 등으로 감소)",
-          "quiz": [
-            {"q": "35,000 mg/L 해수의 삼투압은 약?", "a": "25-28 bar"},
-            {"q": "SWRO 운전압력 범위는?", "a": "55-70 bar"},
-            {"q": "NDP = (Pf-Pp) - (?)", "a": "(πf - πp)"}
-          ]
-        }
+        {"day": 1, "title": "담수화 기술 개요", "content": "담수화 기술의 전체 그림과 SWRO 위상",
+         "key_points": ["전 세계 물 부족과 담수화 역할", "열적방식 vs 막방식 비교", "SWRO가 주류가 된 이유", "글로벌 시장 현황: 1억m³/d 이상"],
+         "technical_terms": {"TDS": "총용존고형물(mg/L), 해수~35,000", "SEC": "에너지소비량(kWh/m³)", "LCOW": "물생산비용($/m³)"},
+         "formula": "SEC 비교:\nSWRO: 2.5~4 kWh/m³\nMSF: 10~15 kWh/m³\nMED: 8~12 kWh/m³",
+         "practical_tip": "SWRO가 열적방식을 압도한 결정적 요인은 ERD 기술입니다. 1980년대 8~10에서 현재 2.5~3.5 kWh/m³까지 낮아졌습니다.",
+         "detailed_explanation": "## 왜 담수화인가?\n\n지구 물의 97.5%는 바닷물입니다. 담수 2.5% 중 빙하 69%, 지하수 30%로, 실제 사용 가능한 물은 0.007%에 불과합니다.\n\n## SWRO의 경쟁력\n- 에너지효율: 열적방식 대비 70% 절감\n- 설치면적: 작음\n- 운전유연성: 높음\n- 초기투자비: 낮음\n\n## 세계 담수화 현황\n- 총 용량: 1억 m³/d 이상\n- 연간 성장률: 8~10%\n- Top 국가: 사우디, UAE, 이스라엘, 스페인",
+         "exercises": "**문제**: 100,000m³/d SWRO(SEC 3.5)와 MSF(SEC 12)의 일일 전력비용 차이는? (전기료 $0.1/kWh)\n\n**정답**: SWRO $35,000, MSF $120,000 → 차이 $85,000/일 → 연간 $31M 절감",
+         "quiz": [{"q": "SWRO SEC 범위?", "a": "2.5~4 kWh/m³"}, {"q": "해수 TDS?", "a": "약 35,000 mg/L"}]},
+
+        {"day": 2, "title": "역삼투(RO) 원리", "content": "삼투현상과 역삼투의 핵심 원리",
+         "key_points": ["삼투: 저농도→고농도 용매이동", "삼투압: Van't Hoff 방정식", "역삼투: 압력으로 방향 역전", "NDP: 실제 구동압력"],
+         "technical_terms": {"π": "삼투압(bar), 해수 25~28bar", "NDP": "Net Driving Pressure", "Rejection": "제거율(%)"},
+         "formula": "삼투압: π = iMRT\n실용식: π ≈ 0.7 × TDS(g/L)\n예: 35g/L → 24.5bar\n\nNDP = (Pf-Pp) - (πf-πp)",
+         "practical_tip": "SWRO 운전압력 55~70bar 중 약 25~28bar는 삼투압 극복용이고, 나머지가 실제 NDP입니다.",
+         "detailed_explanation": "## 삼투 현상\n배추에 소금을 뿌리면 수분이 빠지는 것이 삼투입니다.\n\n## 역삼투\n삼투압(~27bar)보다 높은 압력(55~70bar)을 가하면 물만 막을 통과합니다.\n\n## 계산 예시\n운전압력 60bar, 투과수압력 1bar, 공급수삼투압 27bar, 투과수삼투압 0.5bar\nNDP = (60-1)-(27-0.5) = 32.5bar",
+         "exercises": "**문제**: TDS 40,000mg/L 해수의 삼투압은?\n\n**정답**: π ≈ 0.7 × 40 = 28bar",
+         "quiz": [{"q": "해수 삼투압?", "a": "25~28bar"}, {"q": "SWRO 운전압력?", "a": "55~70bar"}]},
+
+        {"day": 3, "title": "플랜트 구성요소", "content": "SWRO 플랜트 전체 공정 흐름",
+         "key_points": ["취수→전처리→RO→후처리", "각 공정의 역할", "회수율 개념", "농축수 처리"],
+         "technical_terms": {"Permeate": "투과수(담수)", "Concentrate": "농축수(염수)", "Recovery": "회수율(%)"},
+         "formula": "물질수지: Qf = Qp + Qc\n회수율: R = Qp/Qf × 100%\nSWRO 일반: 40~50%\n\n농축계수: CF = 1/(1-R)\nR=45% → CF=1.82",
+         "practical_tip": "회수율 45%면 해수 100톤 중 45톤이 담수가 됩니다. 55톤은 1.82배 농축된 농축수로 배출됩니다."},
+
+        {"day": 4, "title": "해수 수질 특성", "content": "해수의 화학적 조성과 RO에 미치는 영향",
+         "key_points": ["주요이온: Na, Cl, Mg, SO4, Ca", "지역별 TDS 차이", "SDI: 막오염지표", "계절변동 영향"],
+         "technical_terms": {"SDI": "Silt Density Index (목표<3)", "Turbidity": "탁도(NTU)", "HAB": "유해조류번식(적조)"},
+         "formula": "SDI = (1-t0/t15)×100/15\nt0: 초기 여과시간\nt15: 15분후 여과시간\n\nSDI<3: 양호\nSDI 3~5: 주의\nSDI>5: 전처리강화",
+         "practical_tip": "아라비아만은 TDS 45,000mg/L로 높고, 지중해는 38,000mg/L입니다. TDS가 높으면 운전압력도 상승합니다."},
+
+        {"day": 5, "title": "RO막 구조", "content": "TFC막 구조와 Spiral Wound 엘리먼트",
+         "key_points": ["TFC 3층구조: PA/PS/PET", "Spiral Wound 형태", "Flux와 Rejection", "주요 제조사"],
+         "technical_terms": {"TFC": "Thin Film Composite", "Flux": "플럭스(LMH)", "Salt Rejection": "염제거율(99.5~99.8%)"},
+         "formula": "Flux = Qp/Am (LMH)\nSalt Rejection = (1-Cp/Cf)×100%\n\nSWRO Flux: 12~17 LMH\n염제거율: 99.5~99.8%",
+         "practical_tip": "8인치 엘리먼트 막면적은 약 37~41m²입니다. 16인치는 면적이 4배로 설치공간을 줄입니다."},
+
+        {"day": 6, "title": "SWRO 성능지표", "content": "Recovery, SEC, 정규화 데이터",
+         "key_points": ["회수율 최적화", "SEC: 에너지효율지표", "정규화(Normalization)", "차압(DP) 모니터링"],
+         "technical_terms": {"SEC": "kWh/m³", "Normalized": "기준조건 보정값", "DP": "차압(bar)"},
+         "formula": "SEC = 전력(kW)/유량(m³/h)\n\n성능저하 판단:\n- 정규화유량 15%↓\n- 정규화염투과 15%↑\n- 차압 15%↑\n→ CIP 필요",
+         "practical_tip": "SEC 2.5~3.5 kWh/m³가 현재 최고수준입니다. 이론 최소값 1.06 kWh/m³ 대비 아직 개선여지가 있습니다."},
+
+        {"day": 7, "title": "취수시스템", "content": "개방형 vs 매설형 취수",
+         "key_points": ["개방형: 직접취수", "매설형: Beach Well", "장단점 비교", "환경영향평가"],
+         "technical_terms": {"Open Intake": "개방형취수", "Beach Well": "해안우물", "Infiltration Gallery": "침투갤러리"},
+         "formula": "취수량 = Q생산/Recovery\n예: 100,000m³/d, R=45%\n취수량 = 222,222m³/d",
+         "practical_tip": "Beach Well은 자연여과로 SDI<2를 달성하지만 대용량에는 부적합합니다. 10만m³/d 이상은 대부분 개방형입니다."},
+
+        {"day": 8, "title": "에너지회수장치(ERD)", "content": "PX, Pelton Turbine, Turbocharger",
+         "key_points": ["ERD 필요성", "PX: 95~97% 효율", "Pelton: 80~85%", "SEC 영향"],
+         "technical_terms": {"PX": "Pressure Exchanger", "Isobaric": "등압식", "Centrifugal": "원심식"},
+         "formula": "ERD 효과:\n- 없음: SEC 6~8\n- Pelton: SEC 4~5\n- PX: SEC 2.5~3.5\n\n에너지절감 40~60%",
+         "practical_tip": "PX는 ERI사가 선도하며 현재 신규플랜트 대부분에 적용됩니다."},
+
+        {"day": 9, "title": "막오염 유형", "content": "Fouling 4가지 유형",
+         "key_points": ["Colloidal: 콜로이드", "Organic: 유기물", "Bio: 미생물막", "Scaling: 스케일"],
+         "technical_terms": {"Biofilm": "미생물막", "EPS": "세포외고분자물질", "Scale": "결정성침전"},
+         "formula": "오염유형별 증상:\n유형    DP   유량  염투과\n바이오  ↑↑   ↓    약간↑\n스케일  약간↑ ↓↓   ↑\n콜로이드 ↑    ↓    변화적음",
+         "practical_tip": "Biofouling이 전체의 40~50%로 가장 관리하기 어렵습니다."},
+
+        {"day": 10, "title": "스케일과 안티스케일런트", "content": "스케일 형성과 방지",
+         "key_points": ["스케일 형성조건", "주요스케일: CaCO3, CaSO4", "LSI 지수", "안티스케일런트"],
+         "technical_terms": {"LSI": "Langelier Saturation Index", "Antiscalant": "스케일방지제"},
+         "formula": "LSI = pH - pHs\nLSI>0: 스케일경향\nLSI<0: 부식경향\n\n농축계수: CF=1/(1-R)\nR=45% → CF=1.82",
+         "practical_tip": "안티스케일런트 주입량은 2~5mg/L입니다. 과잉주입은 유기물오염을 유발할 수 있습니다."},
+
+        {"day": 11, "title": "후처리시스템", "content": "재광화, pH조정, 소독",
+         "key_points": ["재광화 필요성", "석회석접촉조", "pH조정", "염소소독"],
+         "technical_terms": {"Remineralization": "재광화", "CT값": "소독제농도×접촉시간"},
+         "formula": "석회석반응:\nCaCO3+CO2+H2O→Ca(HCO3)2\n\n투과수특성:\nTDS<500, pH 5.5~6.5\n→ 부식성 높음",
+         "practical_tip": "RO 투과수는 미네랄이 거의 없어 맛이 없고 배관을 부식시킵니다. 반드시 후처리로 안정화해야 합니다."},
+
+        {"day": 12, "title": "화학약품시스템", "content": "전처리/RO/후처리 약품",
+         "key_points": ["염소: 생물오염방지", "응집제: FeCl3", "SBS: 탈염소", "안티스케일런트"],
+         "technical_terms": {"NaOCl": "차아염소산나트륨", "SBS": "Sodium Bisulfite", "FeCl3": "염화제이철"},
+         "formula": "탈염소반응:\nNaHSO3+HOCl→NaHSO4+HCl\n\nSBS 주입량:\nCl2 1mg당 SBS 3mg",
+         "practical_tip": "RO막은 염소에 취약합니다. 잔류염소 0.1mg/L 이상이면 막이 손상됩니다. SBS로 완전 제거 필수!"},
+
+        {"day": 13, "title": "계측 및 제어", "content": "주요 계측기기와 제어시스템",
+         "key_points": ["유량계, 압력계", "pH, 전도도, 탁도", "ORP 모니터링", "PLC/DCS"],
+         "technical_terms": {"Conductivity": "전도도", "ORP": "산화환원전위", "PLC": "제어기"},
+         "formula": "TDS 환산:\nTDS ≈ Conductivity × 0.5~0.7\n\n예: 50,000μS/cm\nTDS ≈ 32,500mg/L",
+         "practical_tip": "전도도는 온도에 민감합니다. 25℃ 기준 자동보정이 필수입니다."},
+
+        {"day": 14, "title": "배관 및 밸브", "content": "재질선정과 밸브종류",
+         "key_points": ["고압배관: Super Duplex", "저압배관: GRP, HDPE", "밸브종류", "PREN과 내식성"],
+         "technical_terms": {"Duplex SS": "듀플렉스(2205)", "Super Duplex": "슈퍼듀플렉스(2507)", "PREN": "공식저항성지수"},
+         "formula": "PREN = %Cr+3.3×%Mo+16×%N\n\n2205: PREN≈34\n2507: PREN≈42\n\n해수고압배관: PREN>40 필수",
+         "practical_tip": "해수 고압배관은 반드시 슈퍼듀플렉스(PREN>40)를 사용하세요. 316SS는 공식이 발생합니다."},
+
+        {"day": 15, "title": "기초이론 종합정리", "content": "1~14일 핵심 복습",
+         "key_points": ["핵심공식 총정리", "용어복습", "계산연습", "중급과정 미리보기"],
+         "technical_terms": {},
+         "formula": "핵심공식:\n1. π≈0.7×TDS(g/L)\n2. NDP=(Pf-Pp)-(πf-πp)\n3. R=Qp/Qf×100%\n4. CF=1/(1-R)\n5. SEC=kW/(m³/h)",
+         "practical_tip": "기초과정 완료! 내일부터 전처리 시스템 상세설계를 배웁니다.",
+         "exercises": "**종합문제**\n1. TDS 38,000의 삼투압? → 0.7×38=26.6bar\n2. R=42%의 농축계수? → 1/(1-0.42)=1.72\n3. 100,000m³/d, SEC 3.2의 일일전력? → 4,167kW×24=100,000kWh"}
+      ]
+    },
+    {
+      "module_id": 2, "title": "전처리시스템", "level": "중급",
+      "duration_days": 15, "start_day": 16,
+      "topics": [
+        {"day": 16, "title": "전처리 설계기준", "content": "원수수질에 따른 전처리방식 선정", "key_points": ["원수수질 파라미터", "기존 vs UF전처리", "선정 의사결정", "SDI 목표"], "technical_terms": {"UF": "한외여과(0.01~0.1μm)", "MF": "정밀여과(0.1~0.5μm)"}, "formula": "전처리선정:\nSDI>15,탁도>10NTU→UF\n적조빈발→UF필수\n안정수질→기존가능", "practical_tip": "최근 신규플랜트는 UF전처리가 대세입니다."},
+        {"day": 17, "title": "응집(Coagulation)", "content": "응집 메커니즘과 약품선정", "key_points": ["응집 4대메커니즘", "응집제: FeCl3, Alum", "Jar Test", "최적pH"], "technical_terms": {"Coagulation": "응집", "Flocculation": "응결", "Zeta Potential": "제타전위"}, "formula": "FeCl3 최적pH: 5~8\nAlum 최적pH: 6~7", "practical_tip": "Jar Test로 최적주입량을 결정합니다."},
+        {"day": 18, "title": "침전 및 부상", "content": "침전조와 DAF 설계", "key_points": ["중력침전원리", "DAF원리", "표면부하율", "DAF vs 침전"], "technical_terms": {"SOR": "표면부하율", "DAF": "용존공기부상"}, "formula": "침전SOR:1~2m/h\nDAF SOR:5~15m/h", "practical_tip": "DAF는 조류제거에 효과적입니다."},
+        {"day": 19, "title": "여과(Filtration)", "content": "DMF, 압력여과기 설계", "key_points": ["DMF구조", "여과속도", "역세척", "압력손실"], "technical_terms": {"DMF": "이중여재여과", "LV": "여과속도"}, "formula": "중력식:5~10m/h\n압력식:10~20m/h\n역세척:30~50m/h", "practical_tip": "역세척주기는 차압상승 또는 시간으로 결정합니다."},
+        {"day": 20, "title": "UF시스템 설계", "content": "UF막 종류와 설계파라미터", "key_points": ["UF막재질: PVDF,PES", "Flux와 TMP", "역세척/CEB/CIP"], "technical_terms": {"PVDF": "폴리비닐리덴플루오라이드", "TMP": "막간차압", "CEB": "화학강화역세척"}, "formula": "UF Flux:40~80LMH\nTMP:0.2~1.0bar\nRecovery:90~95%", "practical_tip": "PVDF막이 해수전처리에 가장 많이 사용됩니다."},
+        {"day": 21, "title": "카트리지필터", "content": "RO 직전 최종보호", "key_points": ["목적: 최종보호", "공극: 5~10μm", "차압관리", "교체주기"], "technical_terms": {"Cartridge Filter": "카트리지필터"}, "formula": "신품차압:0.05~0.1bar\n교체차압:1.0~1.5bar", "practical_tip": "카트리지는 UF파손시 RO막을 보호하는 최후의 방어선입니다."},
+        {"day": 22, "title": "염소처리와 탈염소", "content": "생물오염방지와 RO막보호", "key_points": ["염소처리목적", "Breakpoint", "잔류염소관리", "SBS탈염소"], "technical_terms": {"Free Chlorine": "유리염소", "SBS": "탈염소제"}, "formula": "탈염소:\nCl2 1mg당 SBS 3mg\n\nRO막: Cl<0.1mg/L필수", "practical_tip": "ORP로 잔류염소를 실시간 모니터링하세요."},
+        {"day": 23, "title": "pH조정", "content": "스케일/부식 제어를 위한 pH관리", "key_points": ["pH조정목적", "산/알칼리주입", "LSI제어"], "technical_terms": {"LSI": "Langelier Index"}, "formula": "전처리:pH 6.5~7.0\nRO공급:pH 6.0~7.0\n후처리:pH 7.5~8.5", "practical_tip": "CaCO3스케일 방지를 위해 RO공급수 pH를 낮추는 것이 일반적입니다."},
+        {"day": 24, "title": "전처리 설계계산", "content": "유량, 체류시간, 약품소모량", "key_points": ["설계유량산정", "체류시간", "약품소모량", "슬러지발생량"], "technical_terms": {"HRT": "체류시간"}, "formula": "Q전처리=Q생산/R_RO/R_UF\n예:100,000/(0.45×0.93)=239,000m³/d", "practical_tip": "전처리유량은 RO와 UF 회수율을 모두 고려해야 합니다."},
+        {"day": 25, "title": "P&ID 이해", "content": "배관계장도 읽기", "key_points": ["P&ID심볼", "태그번호체계", "제어루프"], "technical_terms": {"P&ID": "배관계장도", "FIC": "유량지시제어기"}, "formula": "태그: FIC-101\nF:Flow, I:Indicator\nC:Controller, 101:번호", "practical_tip": "P&ID는 플랜트의 '지도'입니다. 가장 먼저 익혀야 할 도면입니다."},
+        {"day": 26, "title": "전처리 운전최적화", "content": "응집/여과/UF 운전최적화", "key_points": ["응집제최적화", "역세척최적화", "TMP관리"], "technical_terms": {"Streaming Current": "스트리밍전류"}, "formula": "UF TMP관리:\n초기:0.1~0.2bar\n운전:0.3~0.6bar\nCIP시점:0.8~1.0bar", "practical_tip": "Streaming Current로 응집제주입을 자동최적화할 수 있습니다."},
+        {"day": 27, "title": "전처리 트러블슈팅", "content": "일반적인 문제와 해결책", "key_points": ["응집불량", "여과조기폐색", "UF오염", "SDI미달"], "technical_terms": {}, "formula": "SDI미달 원인:\n1.응집불량→Jar Test\n2.여과문제→역세척확인\n3.UF오염→CEB/CIP\n4.카트리지파손→교체", "practical_tip": "SDI가 목표를 초과하면 즉시 원인을 파악해야 합니다."},
+        {"day": 28, "title": "적조(HAB) 대응", "content": "유해조류 발생시 대응", "key_points": ["적조영향", "DAF활용", "UF Flux조정", "응집제증량"], "technical_terms": {"HAB": "유해조류번식", "AOM": "조류유기물"}, "formula": "적조시대응:\n1.취수수심조정\n2.DAF강화\n3.응집제20~50%↑\n4.UF Flux 20~30%↓", "practical_tip": "적조는 예측이 어렵습니다. 선제적 대응이 중요합니다."},
+        {"day": 29, "title": "전처리 유지보수", "content": "예방정비와 점검항목", "key_points": ["일일/주간/월간점검", "여재교체", "UF막교체", "펌프정비"], "technical_terms": {"PM": "예방정비", "Integrity Test": "완결성시험"}, "formula": "교체주기:\n여재:3~5년\nUF막:5~7년\n펌프오버홀:2~3년", "practical_tip": "UF Integrity Test로 막파손을 조기에 발견합니다."},
+        {"day": 30, "title": "전처리 종합정리", "content": "전처리 핵심복습", "key_points": ["방식선정흐름", "설계파라미터", "SDI관리", "RO설계 미리보기"], "technical_terms": {}, "formula": "전처리설계:\n응집:3~10mg/L\nDAF:5~15m/h\nDMF:5~15m/h\nUF:40~80LMH\n카트리지:5μm", "practical_tip": "전처리가 RO막수명을 좌우합니다! 좋은 전처리가 좋은 RO성능의 시작입니다."}
+      ]
+    },
+    {
+      "module_id": 3, "title": "RO시스템 설계", "level": "중급",
+      "duration_days": 20, "start_day": 31,
+      "topics": [
+        {"day": 31, "title": "RO설계 개요", "content": "설계소프트웨어와 입력조건", "key_points": ["설계SW: WAVE,IMSDesign", "입력조건정의", "설계변수", "최적화목표"], "technical_terms": {"WAVE": "DuPont설계SW", "IMSDesign": "Hydranautics SW"}, "formula": "설계절차:\n1.용량/수질요구조건\n2.막제품선정\n3.배열설계\n4.시뮬레이션\n5.최적화", "practical_tip": "막제조사별 설계SW가 다릅니다. DuPont:WAVE, Hydranautics:IMSDesign, Toray:TorayDS"},
+        {"day": 32, "title": "막제품 선정", "content": "SWRO막 종류와 선정기준", "key_points": ["막종류: SW,BW,NF", "제조사별 특징", "선정기준"], "technical_terms": {"SW": "해수용막", "BW": "기수용막", "LE": "저에너지막"}, "formula": "막선정기준:\n고염제거율필요→표준막\n에너지절감→저에너지막\n보론제거→고보론제거막", "practical_tip": "최근에는 저에너지막이 주류입니다. 염제거율을 다소 희생하고 에너지효율을 높입니다."},
+        {"day": 33, "title": "배열(Array) 설계", "content": "Stage, Pass, PV배열", "key_points": ["Stage vs Pass", "Array Ratio", "PV당 엘리먼트수"], "technical_terms": {"Stage": "농축수재처리", "Pass": "투과수재처리", "PV": "압력용기"}, "formula": "Array Ratio=1st PV/2nd PV\nSWRO일반:2:1 또는 단일Stage\n\nPV당 엘리먼트:6~8개", "practical_tip": "SWRO는 보통 단일Stage입니다. 고회수율(>50%)이 필요할 때만 2Stage를 적용합니다."},
+        {"day": 34, "title": "Flux와 Recovery 설계", "content": "설계Flux와 회수율 결정", "key_points": ["설계Flux범위", "회수율제한", "Flux분포"], "technical_terms": {"Avg Flux": "평균플럭스", "Lead Element Flux": "선두엘리먼트플럭스"}, "formula": "SWRO 설계Flux:\n보수적:10~12LMH\n일반:12~15LMH\n공격적:15~18LMH\n\n회수율:40~50%", "practical_tip": "선두엘리먼트 Flux가 너무 높으면 오염이 가속됩니다. 평균의 1.3~1.5배 이내로 관리하세요."},
+        {"day": 35, "title": "압력과 에너지 계산", "content": "운전압력과 SEC 계산", "key_points": ["운전압력결정", "NDP계산", "SEC계산", "ERD효과"], "technical_terms": {"Feed Pressure": "공급압력", "Permeate BP": "투과수배압"}, "formula": "운전압력=삼투압+NDP+손실\n예:27+15+5=47bar(이론)\n실제:55~65bar\n\nSEC=HP power/Qp", "practical_tip": "ERD없이 SEC 6~8, PX적용시 2.5~3.5 kWh/m³입니다."},
+        {"day": 36, "title": "투과수 수질 예측", "content": "염투과와 개별이온 제거", "key_points": ["염투과율계산", "개별이온제거", "보론제거", "2Pass필요성"], "technical_terms": {"Salt Passage": "염투과율", "Boron": "보론(붕소)"}, "formula": "SP=1-Rejection\n예:99.7%제거→SP=0.3%\n\n투과수TDS=Feed TDS×SP\n35,000×0.003=105mg/L", "practical_tip": "보론은 pH에 따라 제거율이 달라집니다. pH>9.5에서 제거율이 높아집니다."},
+        {"day": 37, "title": "설계SW 실습 (1)", "content": "WAVE/IMSDesign 기본사용법", "key_points": ["프로젝트생성", "수질입력", "막선택", "배열설정"], "technical_terms": {}, "formula": "입력항목:\n1.Feed수질(이온별)\n2.온도,pH\n3.생산량\n4.회수율\n5.막제품", "practical_tip": "설계SW는 막제조사 웹사이트에서 무료로 다운로드할 수 있습니다."},
+        {"day": 38, "title": "설계SW 실습 (2)", "content": "시뮬레이션 결과 해석", "key_points": ["압력프로파일", "Flux분포", "농축수농도", "경고메시지"], "technical_terms": {"Beta값": "농도분극계수"}, "formula": "확인항목:\n1.운전압력적정?\n2.Flux분포균일?\n3.Beta<1.2?\n4.스케일경고없음?", "practical_tip": "Beta값이 1.2를 초과하면 막표면 농도분극이 심하다는 의미입니다."},
+        {"day": 39, "title": "설계SW 실습 (3)", "content": "설계최적화와 비교", "key_points": ["대안비교", "에너지최적화", "막수량최적화", "비용분석"], "technical_terms": {}, "formula": "최적화변수:\n1.막제품종류\n2.배열(Array)\n3.Flux/Recovery\n4.ERD종류", "practical_tip": "여러 대안을 비교하여 CAPEX와 OPEX를 최적화하세요."},
+        {"day": 40, "title": "2Pass 시스템", "content": "고순도 생산을 위한 2Pass", "key_points": ["2Pass필요조건", "Partial vs Full", "Permeate Split", "보론제거"], "technical_terms": {"1st Pass": "1차RO", "2nd Pass": "2차RO", "Partial 2Pass": "부분2차처리"}, "formula": "2Pass필요조건:\n-TDS<100mg/L\n-보론<0.5mg/L\n-특정이온제거\n\nPartial2Pass:30~50%만 처리", "practical_tip": "전량2Pass는 비용이 높으므로 Partial 2Pass로 목표수질을 달성할 수 있는지 먼저 검토하세요."},
+        {"day": 41, "title": "고압펌프 선정", "content": "HPP 종류와 선정", "key_points": ["다단원심펌프", "피스톤펌프", "H-Q커브해석", "NPSH"], "technical_terms": {"HPP": "High Pressure Pump", "NPSH": "유효흡입수두", "BEP": "최고효율점"}, "formula": "펌프동력=Q×H×ρ×g/η/3600\n\nNPSHa>NPSHr+여유\n\nBEP 70~120%운전권장", "practical_tip": "고압펌프는 BEP부근에서 운전해야 합니다. BEP를 벗어나면 진동, 소음, 조기마모가 발생합니다."},
+        {"day": 42, "title": "부스터펌프와 ERD", "content": "ERD 시스템 구성", "key_points": ["PX+부스터펌프조합", "HP펌프용량산정", "에너지밸런스"], "technical_terms": {"Booster Pump": "부스터펌프", "HP Pump": "고압펌프"}, "formula": "PX시스템:\nHP펌프:투과수유량만큼\n부스터펌프:농축수유량만큼\n\n에너지회수율≈95%", "practical_tip": "PX시스템은 HP펌프가 투과수유량만 담당하므로 펌프용량이 작아집니다."},
+        {"day": 43, "title": "CIP 시스템 설계", "content": "화학세정 시스템", "key_points": ["CIP탱크용량", "펌프/히터", "세정약품", "배관설계"], "technical_terms": {"CIP": "Clean-In-Place", "HCl": "염산세정", "NaOH": "가성소다세정"}, "formula": "CIP탱크용량:\nPV용적×1.5~2배\n\n세정유량:\n일반운전유량의50~100%\n\n온도:30~40℃", "practical_tip": "산성세정(스케일)과 알칼리세정(유기물/바이오)을 번갈아 실시합니다."},
+        {"day": 44, "title": "계장 및 제어 설계", "content": "RO시스템 계장", "key_points": ["필수계측점", "제어루프", "인터락", "알람"], "technical_terms": {"Interlock": "인터락", "Permissive": "허용조건"}, "formula": "필수계측:\n-유량:Feed,Permeate,Conc\n-압력:각단입출구\n-전도도:Feed,Perm\n-온도:Feed", "practical_tip": "ORP 연속측정으로 잔류염소를 모니터링하세요. 0.1mg/L이상시 즉시 알람."},
+        {"day": 45, "title": "RO 배관설계", "content": "고압배관 설계", "key_points": ["배관재질선정", "유속설계", "압력등급", "밸브선정"], "technical_terms": {"Schedule": "배관두께등급"}, "formula": "배관유속:\n흡입측:<2m/s\n토출측:2~3m/s\n\n고압배관:SuperDuplex\n저압배관:GRP,HDPE", "practical_tip": "고압배관 용접은 자격있는 용접사가 수행해야 합니다. 용접후 비파괴검사 필수."},
+        {"day": 46, "title": "Skid 설계", "content": "RO Skid 구조설계", "key_points": ["Skid레이아웃", "PV배열", "접근성", "유지보수공간"], "technical_terms": {"Skid": "일체형구조물", "Train": "RO트레인"}, "formula": "Skid설계고려:\n1.PV배열(수평/수직)\n2.배관접근성\n3.엘리먼트교체공간\n4.계기접근성", "practical_tip": "엘리먼트 교체를 위한 충분한 공간(최소 1.5m)을 확보하세요."},
+        {"day": 47, "title": "물질/에너지수지", "content": "플랜트 전체 수지계산", "key_points": ["물질수지표작성", "에너지수지", "열수지", "화학약품수지"], "technical_terms": {"Mass Balance": "물질수지", "Energy Balance": "에너지수지"}, "formula": "물질수지:\nQin=Qout(연속공정)\n염분수지:\nQf×Cf=Qp×Cp+Qc×Cc", "practical_tip": "물질수지표는 설계의 기본입니다. 모든 공정을 연결하여 작성하세요."},
+        {"day": 48, "title": "설계문서 작성", "content": "기본설계 산출물", "key_points": ["설계기준서", "PFD", "P&ID", "장비목록"], "technical_terms": {"PFD": "공정흐름도", "P&ID": "배관계장도", "BOM": "자재목록"}, "formula": "기본설계산출물:\n1.설계기준서(DBD)\n2.PFD\n3.P&ID\n4.장비사양서\n5.배관재질등급", "practical_tip": "설계기준서에 모든 설계조건과 가정을 명확히 기록하세요."},
+        {"day": 49, "title": "설계검토(Design Review)", "content": "설계검증과 HAZOP", "key_points": ["내부검토", "고객검토", "HAZOP", "Value Engineering"], "technical_terms": {"HAZOP": "위험및운전성분석", "VE": "가치공학"}, "formula": "HAZOP키워드:\nNo,More,Less,Reverse\nPart of,As well as\nOther than", "practical_tip": "HAZOP은 모든 라인과 장비에 대해 체계적으로 위험을 식별합니다."},
+        {"day": 50, "title": "RO설계 종합정리", "content": "설계 핵심복습", "key_points": ["설계절차요약", "핵심파라미터", "SW활용", "문서화"], "technical_terms": {}, "formula": "RO설계핵심:\n1.Flux:12~15LMH\n2.Recovery:40~50%\n3.SEC:2.5~4kWh/m³\n4.Salt Rejection:>99.5%", "practical_tip": "설계완료! 다음은 기계장비 상세설계를 배웁니다."}
+      ]
+    },
+    {
+      "module_id": 4, "title": "기계장비및계장", "level": "고급",
+      "duration_days": 15, "start_day": 51,
+      "topics": [
+        {"day": 51, "title": "펌프 상세설계", "content": "펌프사양서 작성", "key_points": ["Data Sheet작성", "펌프커브확인", "재질선정", "씰타입"], "technical_terms": {"Data Sheet": "사양서", "Mech Seal": "메카니컬씰"}, "formula": "펌프사양서항목:\n1.유량,양정\n2.NPSH\n3.재질\n4.구동방식\n5.효율", "practical_tip": "해수용펌프는 Super Duplex 임펠러를 사용합니다."},
+        {"day": 52, "title": "밸브 상세설계", "content": "밸브종류와 선정", "key_points": ["게이트,글로브,버터플라이,볼", "액추에이터", "Cv계산"], "technical_terms": {"Cv": "밸브용량계수", "Actuator": "구동기"}, "formula": "Cv=Q×√(SG/ΔP)\nQ:유량(gpm)\nΔP:차압(psi)\nSG:비중", "practical_tip": "On/Off용은 볼이나 버터플라이, 유량제어용은 글로브밸브를 사용합니다."},
+        {"day": 53, "title": "압력용기(PV)", "content": "RO압력용기 설계", "key_points": ["재질선정", "설계압력", "엔드캡", "인터커넥터"], "technical_terms": {"End Cap": "엔드캡", "Interconnector": "연결관"}, "formula": "PV설계압력:\nSWRO:1000~1200psi\n(69~83bar)\n\n재질:FRP+SS엔드캡", "practical_tip": "PV는 ASME BPVC 또는 동등 기준에 따라 제작/인증받아야 합니다."},
+        {"day": 54, "title": "탱크류 설계", "content": "각종 탱크 설계", "key_points": ["원수탱크", "투과수탱크", "CIP탱크", "약품탱크"], "technical_terms": {"Dead Volume": "사수용적"}, "formula": "탱크용량:\n원수:10~30분체류\n투과수:10~30분체류\nCIP:PV용적×2배", "practical_tip": "탱크바닥에 사수영역이 없도록 경사를 주세요."},
+        {"day": 55, "title": "계기선정(1)", "content": "유량계,압력계", "key_points": ["전자식유량계", "초음파유량계", "압력트랜스미터"], "technical_terms": {"EM Flow": "전자식유량계", "PT": "압력트랜스미터"}, "formula": "유량계정확도:±0.5%\n압력계정확도:±0.25%\n\n계측범위:정상운전의50~150%", "practical_tip": "해수용전자식유량계는 내식성라이닝이 필수입니다."},
+        {"day": 56, "title": "계기선정(2)", "content": "수질분석계", "key_points": ["pH계", "전도도계", "탁도계", "ORP계"], "technical_terms": {"Conductivity": "전도도", "ORP": "산화환원전위"}, "formula": "측정범위:\npH:0~14\n전도도:0~100mS/cm\n탁도:0~100NTU\nORP:-1000~+1000mV", "practical_tip": "분석계는 정기교정이 필수입니다. 월1회 이상 교정하세요."},
+        {"day": 57, "title": "PLC/DCS 설계", "content": "제어시스템 설계", "key_points": ["PLC vs DCS선정", "I/O목록", "제어로직", "HMI"], "technical_terms": {"PLC": "프로그래머블로직제어기", "DCS": "분산제어시스템", "HMI": "인간기계인터페이스"}, "formula": "시스템선정:\n소규모:PLC\n대규모:DCS\n\nI/O여유:20~30%", "practical_tip": "제어시스템은 이중화(Redundancy)를 고려하세요."},
+        {"day": 58, "title": "전기설계 기초", "content": "전력계통과 모터", "key_points": ["전력계통구성", "MCC", "모터선정", "VFD"], "technical_terms": {"MCC": "모터제어반", "VFD": "가변속드라이브"}, "formula": "모터출력=√3×V×I×cosφ×η\n\nVFD적용:\n-유량조절필요시\n-소프트스타트", "practical_tip": "고압펌프에 VFD를 적용하면 에너지절감과 유연한 운전이 가능합니다."},
+        {"day": 59, "title": "안전설비", "content": "안전장치와 방호설비", "key_points": ["PSV선정", "파열판", "비상정지", "방폭"], "technical_terms": {"PSV": "안전밸브", "Rupture Disc": "파열판", "ESD": "비상차단"}, "formula": "PSV설정압력:\n운전압력×1.1~1.15\n\nPSV용량:\n최대차단유량기준", "practical_tip": "고압펌프출구에는 반드시 PSV를 설치하세요."},
+        {"day": 60, "title": "재질등급표(MCS)", "content": "배관/밸브 재질선정", "key_points": ["Piping Class", "부식여유", "압력등급", "플랜지규격"], "technical_terms": {"MCS": "Material Class Spec", "Rating": "압력등급"}, "formula": "배관등급예:\nClass A:해수고압-SDuplex\nClass B:해수저압-GRP\nClass C:담수-SS316L", "practical_tip": "MCS는 프로젝트초기에 확정하고 일관되게 적용하세요."},
+        {"day": 61, "title": "장비배치(Layout)", "content": "플랜트 레이아웃", "key_points": ["공정흐름고려", "유지보수접근", "안전거리", "확장성"], "technical_terms": {"Plot Plan": "배치도", "Tie-in": "연결점"}, "formula": "배치고려:\n1.공정흐름방향\n2.펌프NPSH\n3.배관경제성\n4.유지보수공간", "practical_tip": "장비주변에 충분한 유지보수공간을 확보하세요."},
+        {"day": 62, "title": "3D모델링", "content": "Plant3D 활용", "key_points": ["3D모델링목적", "간섭체크", "Walkthrough", "ISO도면추출"], "technical_terms": {"Clash Check": "간섭체크", "ISO Drawing": "배관제작도"}, "formula": "3D모델링장점:\n1.간섭조기발견\n2.시공성검토\n3.물량자동산출\n4.유지보수계획", "practical_tip": "3D모델로 가상Walkthrough를 하면 설계오류를 조기에 발견할 수 있습니다."},
+        {"day": 63, "title": "FAT/SAT", "content": "공장인수/현장인수시험", "key_points": ["FAT절차", "SAT절차", "Punch List", "인수기준"], "technical_terms": {"FAT": "공장인수시험", "SAT": "현장인수시험"}, "formula": "FAT검사항목:\n1.외관검사\n2.치수확인\n3.성능시험\n4.전기/계장시험", "practical_tip": "FAT에서 결함을 발견하면 현장반입전에 수정하는것이 비용절감입니다."},
+        {"day": 64, "title": "시운전 준비", "content": "Pre-commissioning", "key_points": ["Flushing", "Hydro Test", "Loop Check", "막설치"], "technical_terms": {"Loop Check": "루프체크", "Hydro Test": "수압시험"}, "formula": "시운전절차:\n1.배관Flushing\n2.수압시험\n3.전기/계장체크\n4.막설치\n5.무부하운전", "practical_tip": "막설치전에 배관내 이물질을 완전히 제거하세요."},
+        {"day": 65, "title": "기계장비 종합정리", "content": "장비설계 핵심복습", "key_points": ["핵심장비사양", "재질선정원칙", "계측중요성", "시운전준비"], "technical_terms": {}, "formula": "장비설계핵심:\n1.펌프:BEP운전\n2.PV:설계압력확인\n3.계기:정확도/범위\n4.전기:VFD활용", "practical_tip": "장비설계완료! 다음은 운전최적화와 트러블슈팅을 배웁니다."}
+      ]
+    },
+    {
+      "module_id": 5, "title": "운전최적화및트러블슈팅", "level": "고급",
+      "duration_days": 15, "start_day": 66,
+      "topics": [
+        {"day": 66, "title": "정규화(Normalization)", "content": "RO성능 정규화 방법", "key_points": ["정규화필요성", "TCF계산", "NDP보정", "정규화데이터해석"], "technical_terms": {"TCF": "온도보정계수", "Normalized": "정규화값"}, "formula": "정규화유량=Qp×(NDP기준/NDP운전)×TCF\n\nTCF=exp[k×(1/T운전-1/T기준)]\n\n기준온도:25℃", "practical_tip": "정규화없이는 계절변화에 따른 성능저하를 정확히 파악할 수 없습니다."},
+        {"day": 67, "title": "성능모니터링", "content": "일일운전데이터 관리", "key_points": ["KPI관리", "트렌드분석", "이상징후감지", "데이터기록"], "technical_terms": {"KPI": "핵심성과지표"}, "formula": "모니터링KPI:\n1.정규화투과유량\n2.정규화염투과율\n3.차압\n4.SEC\n5.회수율", "practical_tip": "엑셀이나 전용SW로 일일데이터를 기록하고 트렌드를 분석하세요."},
+        {"day": 68, "title": "CIP 실무", "content": "화학세정 실무절차", "key_points": ["CIP시기판단", "세정액조성", "세정절차", "효과확인"], "technical_terms": {"Alkaline CIP": "알칼리세정", "Acid CIP": "산세정"}, "formula": "CIP시기:\n정규화유량 15%↓\n정규화SP 15%↑\n차압 15%↑\n\n알칼리:NaOH pH11~12\n산:HCl pH2~3", "practical_tip": "오염초기에 CIP를 실시해야 효과적입니다. 오염이 심해지면 세정효율이 급격히 떨어집니다."},
+        {"day": 69, "title": "막오염진단", "content": "오염유형 판별", "key_points": ["증상별오염유형", "막부검(Autopsy)", "분석방법", "원인규명"], "technical_terms": {"Autopsy": "막부검", "FTIR": "적외선분광", "SEM-EDS": "전자현미경"}, "formula": "오염진단:\n증상→유형추정→부검→분석\n\n부검위치:\n선두:유기물/바이오\n후미:스케일", "practical_tip": "막부검은 선두와 후미 엘리먼트를 함께 분석해야 전체상황을 파악할 수 있습니다."},
+        {"day": 70, "title": "스케일 트러블슈팅", "content": "스케일 문제 해결", "key_points": ["스케일유형판별", "원인분석", "CIP방법", "예방대책"], "technical_terms": {"CaCO3": "탄산칼슘", "CaSO4": "황산칼슘", "BaSO4": "황산바륨"}, "formula": "스케일CIP:\nCaCO3:HCl pH2\nCaSO4:특수제거제\nSilica:NaOH pH13\n\n온도:30~40℃", "practical_tip": "CaSO4(석고)스케일은 용해도가 낮아 일반산으로 제거가 어렵습니다. 전문제거제가 필요합니다."},
+        {"day": 71, "title": "바이오파울링 대책", "content": "미생물오염 관리", "key_points": ["바이오필름형성", "예방적염소처리", "DBNPA", "CIP"], "technical_terms": {"Biofilm": "미생물막", "DBNPA": "비산화성살균제"}, "formula": "바이오예방:\n1.연속염소+SBS\n2.간헐DBNPA(30min/d)\n\n바이오CIP:\nNaOH+계면활성제\npH11~12, 35℃, 4hr", "practical_tip": "바이오파울링은 예방이 최선입니다. 한번 형성된 바이오필름은 제거가 어렵습니다."},
+        {"day": 72, "title": "유기물오염 대책", "content": "NOM오염 관리", "key_points": ["유기물오염특성", "응집강화", "CIP방법"], "technical_terms": {"NOM": "자연유기물", "TOC": "총유기탄소"}, "formula": "유기물CIP:\nNaOH pH11~12\n+ 계면활성제\n\n35~40℃, 4~6hr", "practical_tip": "적조시기에는 유기물오염이 급증합니다. 전처리강화와 CIP주기단축이 필요합니다."},
+        {"day": 73, "title": "압력문제 분석", "content": "비정상압력 원인분석", "key_points": ["압력상승원인", "압력저하원인", "차압증가", "압력진단"], "technical_terms": {"Feed Pressure": "공급압력", "DP": "차압"}, "formula": "압력이상원인:\n공급압↑:막오염,밸브폐쇄\n공급압↓:펌프문제,누설\n차압↑:오염,에어록", "practical_tip": "갑작스런 압력변화는 펌프나 밸브문제일 가능성이 높습니다. 점진적변화는 오염을 의심하세요."},
+        {"day": 74, "title": "수질문제 분석", "content": "투과수수질 불량원인", "key_points": ["염투과증가원인", "특정이온증가", "O-ring누설", "막손상"], "technical_terms": {"Salt Passage": "염투과", "O-ring": "오링"}, "formula": "수질불량원인:\n1.막열화(산화,가수분해)\n2.오링누설\n3.PV손상\n4.높은회수율\n\n진단:Profile Test", "practical_tip": "개별PV투과수수질을 측정(Profile Test)하면 누설위치를 특정할 수 있습니다."},
+        {"day": 75, "title": "에너지최적화", "content": "SEC 최적화 전략", "key_points": ["회수율최적화", "ERD효율관리", "펌프효율", "운전점최적화"], "technical_terms": {"Operating Point": "운전점"}, "formula": "SEC최적화:\n1.ERD효율유지\n2.펌프BEP운전\n3.회수율최적화\n4.막청결유지", "practical_tip": "막이 깨끗하면 같은압력에서 더 많은 물을 생산하여 SEC가 낮아집니다."},
+        {"day": 76, "title": "화학약품최적화", "content": "약품주입량 최적화", "key_points": ["응집제최적화", "안티스케일런트", "SBS주입량", "pH약품"], "technical_terms": {}, "formula": "약품최적화:\n응집제:Jar Test\n안티스케일런트:SW계산\nSBS:ORP모니터링", "practical_tip": "약품과잉주입은 비용낭비와 2차오염을 유발합니다. 최적주입량을 찾으세요."},
+        {"day": 77, "title": "비상대응", "content": "비상상황 대응절차", "key_points": ["막손상대응", "정전대응", "화학물질누출", "자연재해"], "technical_terms": {"Emergency Shutdown": "비상정지"}, "formula": "비상정지절차:\n1.HP펌프정지\n2.밸브폐쇄\n3.저압플러싱\n4.원인파악", "practical_tip": "비상정지후 막보호를 위해 저압플러싱을 실시하세요."},
+        {"day": 78, "title": "예방정비", "content": "PM프로그램 수립", "key_points": ["일일점검", "주간점검", "월간점검", "연간점검"], "technical_terms": {"PM": "예방정비", "CBM": "상태기반정비"}, "formula": "점검주기:\n일일:운전데이터확인\n주간:장비점검\n월간:분석계교정\n연간:막성능평가", "practical_tip": "예방정비는 고장을 줄이고 플랜트수명을 연장합니다."},
+        {"day": 79, "title": "막교체 계획", "content": "막수명과 교체전략", "key_points": ["막수명예측", "교체시기결정", "부분교체", "전량교체"], "technical_terms": {"Membrane Life": "막수명"}, "formula": "막교체판단:\n1.정규화성능50%↓\n2.CIP효과미흡\n3.염투과율급증\n\n막수명:5~7년(일반)", "practical_tip": "전량교체시에는 막납품일정을 고려하여 6개월전에 계획하세요."},
+        {"day": 80, "title": "운전최적화 종합정리", "content": "운전관리 핵심복습", "key_points": ["정규화중요성", "CIP시기/방법", "트러블슈팅흐름", "예방정비"], "technical_terms": {}, "formula": "운전관리핵심:\n1.정규화데이터추적\n2.적시CIP\n3.예방정비\n4.데이터기록", "practical_tip": "운전최적화완료! 다음은 프로젝트엔지니어링과 전문가과정입니다."}
+      ]
+    },
+    {
+      "module_id": 6, "title": "프로젝트엔지니어링및전문가과정", "level": "전문가",
+      "duration_days": 10, "start_day": 81,
+      "topics": [
+        {"day": 81, "title": "프로젝트 수행체계", "content": "SWRO프로젝트 단계와 산출물", "key_points": ["FS→FEED→EPC", "각단계산출물", "이해관계자역할", "프로젝트관리"], "technical_terms": {"FS": "타당성조사", "FEED": "기본설계", "EPC": "설계조달시공"}, "formula": "프로젝트단계:\nFS:사업성검토\nFEED:기본설계(30%)\nEPC:상세설계+시공", "practical_tip": "FEED단계에서 설계기준을 명확히해야 EPC에서 변경과 클레임을 최소화합니다."},
+        {"day": 82, "title": "입찰 및 계약", "content": "EPC입찰과 계약", "key_points": ["입찰문서구성", "기술평가", "가격협상", "계약조건"], "technical_terms": {"RFQ": "견적요청", "ITB": "입찰안내서", "Lumpsum": "총액계약"}, "formula": "평가기준:\n기술:60~70%\n가격:30~40%\n\n계약유형:\nLumpsum,Unit Price\nCost Plus", "practical_tip": "기술평가에서 Reference(실적)가 매우 중요합니다."},
+        {"day": 83, "title": "품질관리(QA/QC)", "content": "품질보증과 품질관리", "key_points": ["QA/QC계획", "ITP작성", "검사기준", "NCR관리"], "technical_terms": {"ITP": "검사시험계획", "NCR": "부적합보고서", "QA": "품질보증", "QC": "품질관리"}, "formula": "품질관리단계:\n자재검사→제작검사\n→시공검사→시운전검사", "practical_tip": "ITP에 Hold Point(필수검사점)를 명확히 정의하세요."},
+        {"day": 84, "title": "시운전 및 인수", "content": "Commissioning과 PAC", "key_points": ["시운전절차", "성능시험", "PAC조건", "보증사항"], "technical_terms": {"Commissioning": "시운전", "PAC": "잠정인수증명", "FAC": "최종인수증명"}, "formula": "성능시험항목:\n1.생산용량\n2.투과수수질\n3.SEC\n4.회수율", "practical_tip": "PAC발급전 모든 Punch Item을 해소하세요."},
+        {"day": 85, "title": "O&M 계약", "content": "운영유지보수 계약", "key_points": ["O&M범위", "성과지표", "인센티브/페널티", "보고체계"], "technical_terms": {"O&M": "운영유지보수", "KPI": "핵심성과지표", "SLA": "서비스수준계약"}, "formula": "O&M KPI:\n1.가용률(Availability)\n2.수질기준충족\n3.SEC\n4.안전", "practical_tip": "O&M계약에 막교체비용과 주기를 명확히 정의하세요."},
+        {"day": 86, "title": "신기술 동향", "content": "차세대 담수화기술", "key_points": ["저에너지화", "FO,MD,CDI", "하이브리드", "재생에너지연계"], "technical_terms": {"FO": "정삼투", "MD": "막증류", "CDI": "전기용량탈이온"}, "formula": "이론최소에너지:\nEmin≈1.06kWh/m³\n\n현재최고SWRO:\nSEC≈2.5kWh/m³", "practical_tip": "기술발전으로 SEC는 계속 낮아지고 있지만, 이론최소값까지는 아직 갭이 있습니다."},
+        {"day": 87, "title": "환경 및 규제", "content": "환경영향과 규제준수", "key_points": ["농축수영향", "취수영향", "환경규제", "지속가능성"], "technical_terms": {"EIA": "환경영향평가", "Brine Discharge": "농축수배출"}, "formula": "농축수영향최소화:\n1.희석배출\n2.디퓨저사용\n3.발전소방류수활용", "practical_tip": "농축수배출규제가 강화되고 있습니다. ZLD(무방류)기술도 검토되고 있습니다."},
+        {"day": 88, "title": "사업성 분석", "content": "경제성평가와 재무분석", "key_points": ["CAPEX/OPEX", "LCOW", "IRR/NPV", "민감도분석"], "technical_terms": {"CAPEX": "초기투자비", "OPEX": "운영비", "IRR": "내부수익률", "NPV": "순현재가치"}, "formula": "LCOW계산:\nLCOW=(CAPEX×CRF+OPEX)/연간생산량\n\nCRF=r(1+r)^n/((1+r)^n-1)", "practical_tip": "LCOW는 $0.5~1.0/m³ 수준입니다. 에너지비용이 가장 큰 비중을 차지합니다."},
+        {"day": 89, "title": "리더십과 소통", "content": "기술리더의 역량", "key_points": ["기술의사결정", "팀역량개발", "이해관계자소통", "지식전수"], "technical_terms": {"SME": "분야전문가", "Lessons Learned": "교훈"}, "formula": "", "practical_tip": "진정한 전문가는 복잡한 개념을 쉽게 설명할 수 있어야 합니다."},
+        {"day": 90, "title": "90일 과정 수료", "content": "전문가과정 완료 및 향후계획", "key_points": ["90일학습정리", "역량자기평가", "지속학습방향", "전문가네트워크"], "technical_terms": {}, "formula": "SWRO전문가역량:\n1.기초이론확실\n2.설계경험\n3.운전최적화\n4.트러블슈팅\n5.프로젝트관리", "practical_tip": "축하합니다! 90일과정을 모두 마쳤습니다. 이제 실무경험을 쌓으며 전문가로 성장하세요!"}
       ]
     }
   ]
