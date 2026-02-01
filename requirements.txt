@@ -1,0 +1,5 @@
+# SWRO Daily Learning Email System
+# Python 3.9+ required
+
+# OpenAI API (AI 콘텐츠 생성용, 선택적)
+openai>=1.0.0
